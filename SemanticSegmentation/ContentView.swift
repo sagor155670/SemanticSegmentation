@@ -11,15 +11,15 @@ import Vision
 
 struct ContentView: View {
     
-    @State var image:UIImage? = UIImage(named: "person3.jpg")!
+    @State var image:UIImage? = UIImage(named: "person3.avif")!
     @State var maskImage:UIImage?
     var body: some View {
         VStack {
 //            Image(uiImage: image!)
 //                .resizable()
 //                .imageScale(.large)
-            ImageLiftView(imageName: "person3.avif")
-                .frame(width: 700,height: 800)
+//            ImageLiftView(imageName: "object5.avif")
+//                .frame(width: 700,height: 800)
                 
             
 

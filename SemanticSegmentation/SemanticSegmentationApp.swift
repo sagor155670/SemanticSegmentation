@@ -11,7 +11,10 @@ import SwiftUI
 struct SemanticSegmentationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            ContourDetection()
+//            ModelContentView()
+            YoloContentView()
         }
     }
 }
