@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import CoreML
 import Vision
+import VisionKit
 import CoreImage
 struct ModelContentView: View {
     

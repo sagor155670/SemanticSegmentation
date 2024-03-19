@@ -33,6 +33,7 @@
 		1CE450D52B9F2A52001843C0 /* object2.avif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE450D42B9F2A52001843C0 /* object2.avif */; };
 		1CE450D72B9F2B0C001843C0 /* object4.avif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE450D62B9F2B0C001843C0 /* object4.avif */; };
 		1CE450DA2B9F2BC4001843C0 /* object5.avif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE450D92B9F2BC4001843C0 /* object5.avif */; };
+		1CF86F292BA9887E00B6F3FF /* HumanRectangleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF86F282BA9887E00B6F3FF /* HumanRectangleContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		1CE450D42B9F2A52001843C0 /* object2.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = object2.avif; sourceTree = "<group>"; };
 		1CE450D62B9F2B0C001843C0 /* object4.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = object4.avif; sourceTree = "<group>"; };
 		1CE450D92B9F2BC4001843C0 /* object5.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = object5.avif; sourceTree = "<group>"; };
+		1CF86F282BA9887E00B6F3FF /* HumanRectangleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanRectangleContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		1CE450A52B9F1991001843C0 = {
 			isa = PBXGroup;
 			children = (
+				1CE450B12B9F1991001843C0 /* SemanticSegmentationApp.swift */,
 				1CE450B02B9F1991001843C0 /* SemanticSegmentation */,
 				1CE450AF2B9F1991001843C0 /* Products */,
 				1CE450CD2B9F1CDB001843C0 /* Frameworks */,
@@ -99,7 +102,7 @@
 		1CE450B02B9F1991001843C0 /* SemanticSegmentation */ = {
 			isa = PBXGroup;
 			children = (
-				1CE450B12B9F1991001843C0 /* SemanticSegmentationApp.swift */,
+				1CF86F282BA9887E00B6F3FF /* HumanRectangleContentView.swift */,
 				1C35058D2BA3000D009E210C /* MediaPicker.swift */,
 				1C3505872BA2F98C009E210C /* YoloContentView.swift */,
 				1CE450B32B9F1991001843C0 /* ContentView.swift */,
@@ -235,6 +238,7 @@
 				1C4B160B2BA17E6700261F8A /* ContourDetection.swift in Sources */,
 				1C35058E2BA3000D009E210C /* MediaPicker.swift in Sources */,
 				1CE450C02B9F19BD001843C0 /* ImageLift.swift in Sources */,
+				1CF86F292BA9887E00B6F3FF /* HumanRectangleContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

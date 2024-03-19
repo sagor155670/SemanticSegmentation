@@ -14,7 +14,8 @@ struct SemanticSegmentationApp: App {
 //            ContentView()
 //            ContourDetection()
 //            ModelContentView()
-            YoloContentView()
+//            YoloContentView()
+            HumanRectangleContentView()
         }
     }
 }
