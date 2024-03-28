@@ -14,7 +14,7 @@ class Classifier{
      var results: String?
     
      func detect(ciImage:CIImage) -> String {
-        guard let model = try? VNCoreMLModel(for: YOLOv3(configuration: MLModelConfiguration()).model) else{
+        guard let model = try? VNCoreMLModel(for: MobileNetV2(configuration: MLModelConfiguration()).model) else{
             return ""
         }
         let request =  VNCoreMLRequest(model: model)

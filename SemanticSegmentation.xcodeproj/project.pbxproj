@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3505802BA2B9FD009E210C /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C35057F2BA2B9FD009E210C /* YOLOv3.mlmodel */; };
 		1C3505822BA2CECF009E210C /* ModelContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3505812BA2CECF009E210C /* ModelContentView.swift */; };
 		1C3505842BA2D0D6009E210C /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3505832BA2D0D6009E210C /* Classifier.swift */; };
 		1C3505862BA2F5F2009E210C /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C3505852BA2F5F2009E210C /* MobileNetV2.mlmodel */; };
 		1C3505882BA2F98C009E210C /* YoloContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3505872BA2F98C009E210C /* YoloContentView.swift */; };
-		1C35058A2BA2F9F0009E210C /* yolov5l.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C3505892BA2F9F0009E210C /* yolov5l.mlmodel */; };
-		1C35058C2BA2FE24009E210C /* yolov8l.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1C35058B2BA2FE24009E210C /* yolov8l.mlpackage */; };
 		1C35058E2BA3000D009E210C /* MediaPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35058D2BA3000D009E210C /* MediaPicker.swift */; };
 		1C4B160B2BA17E6700261F8A /* ContourDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B160A2BA17E6700261F8A /* ContourDetection.swift */; };
 		1C4B160D2BA1B2C800261F8A /* personx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C4B160C2BA1B2C800261F8A /* personx.jpg */; };
 		1C4B160F2BA1B2FF00261F8A /* group.avif in Resources */ = {isa = PBXBuildFile; fileRef = 1C4B160E2BA1B2FF00261F8A /* group.avif */; };
+		1CA767472BAAC2960018BDCD /* yolov8x.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1CA767462BAAC2960018BDCD /* yolov8x.mlpackage */; };
+		1CA7674F2BAB047D0018BDCD /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA7674E2BAB047D0018BDCD /* CoreML.framework */; };
+		1CA767512BAB136F0018BDCD /* yolov8x-seg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1CA767502BAB136F0018BDCD /* yolov8x-seg.mlpackage */; };
 		1CE450B22B9F1991001843C0 /* SemanticSegmentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE450B12B9F1991001843C0 /* SemanticSegmentationApp.swift */; };
 		1CE450B42B9F1991001843C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE450B32B9F1991001843C0 /* ContentView.swift */; };
 		1CE450B62B9F1992001843C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE450B52B9F1992001843C0 /* Assets.xcassets */; };
@@ -37,17 +37,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C35057F2BA2B9FD009E210C /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		1C3505812BA2CECF009E210C /* ModelContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContentView.swift; sourceTree = "<group>"; };
 		1C3505832BA2D0D6009E210C /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		1C3505852BA2F5F2009E210C /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		1C3505872BA2F98C009E210C /* YoloContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloContentView.swift; sourceTree = "<group>"; };
-		1C3505892BA2F9F0009E210C /* yolov5l.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5l.mlmodel; sourceTree = "<group>"; };
-		1C35058B2BA2FE24009E210C /* yolov8l.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8l.mlpackage; sourceTree = "<group>"; };
 		1C35058D2BA3000D009E210C /* MediaPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPicker.swift; sourceTree = "<group>"; };
 		1C4B160A2BA17E6700261F8A /* ContourDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourDetection.swift; sourceTree = "<group>"; };
 		1C4B160C2BA1B2C800261F8A /* personx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = personx.jpg; sourceTree = "<group>"; };
 		1C4B160E2BA1B2FF00261F8A /* group.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = group.avif; sourceTree = "<group>"; };
+		1CA767462BAAC2960018BDCD /* yolov8x.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8x.mlpackage; sourceTree = "<group>"; };
+		1CA7674E2BAB047D0018BDCD /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		1CA767502BAB136F0018BDCD /* yolov8x-seg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "yolov8x-seg.mlpackage"; sourceTree = "<group>"; };
 		1CE450AE2B9F1991001843C0 /* SemanticSegmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemanticSegmentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE450B12B9F1991001843C0 /* SemanticSegmentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticSegmentationApp.swift; sourceTree = "<group>"; };
 		1CE450B32B9F1991001843C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA7674F2BAB047D0018BDCD /* CoreML.framework in Frameworks */,
 				1CE450D12B9F1CDB001843C0 /* libswiftVision.tbd in Frameworks */,
 				1CE450D22B9F1CDB001843C0 /* Vision.framework in Frameworks */,
 				1CE450D32B9F1CDB001843C0 /* VisionKit.framework in Frameworks */,
@@ -107,12 +108,11 @@
 				1C3505872BA2F98C009E210C /* YoloContentView.swift */,
 				1CE450B32B9F1991001843C0 /* ContentView.swift */,
 				1C3505812BA2CECF009E210C /* ModelContentView.swift */,
+				1CA767462BAAC2960018BDCD /* yolov8x.mlpackage */,
 				1C3505832BA2D0D6009E210C /* Classifier.swift */,
+				1CA767502BAB136F0018BDCD /* yolov8x-seg.mlpackage */,
 				1C4B160A2BA17E6700261F8A /* ContourDetection.swift */,
-				1C35057F2BA2B9FD009E210C /* YOLOv3.mlmodel */,
 				1C3505852BA2F5F2009E210C /* MobileNetV2.mlmodel */,
-				1C3505892BA2F9F0009E210C /* yolov5l.mlmodel */,
-				1C35058B2BA2FE24009E210C /* yolov8l.mlpackage */,
 				1CE450BF2B9F19BD001843C0 /* ImageLift.swift */,
 				1C4B160C2BA1B2C800261F8A /* personx.jpg */,
 				1CE450C32B9F1AF3001843C0 /* home.jpg */,
@@ -140,6 +140,7 @@
 		1CE450CD2B9F1CDB001843C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CA7674E2BAB047D0018BDCD /* CoreML.framework */,
 				1CE450CE2B9F1CDB001843C0 /* libswiftVision.tbd */,
 				1CE450CF2B9F1CDB001843C0 /* Vision.framework */,
 				1CE450D02B9F1CDB001843C0 /* VisionKit.framework */,
@@ -227,16 +228,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3505842BA2D0D6009E210C /* Classifier.swift in Sources */,
-				1C35058A2BA2F9F0009E210C /* yolov5l.mlmodel in Sources */,
-				1C3505802BA2B9FD009E210C /* YOLOv3.mlmodel in Sources */,
-				1C35058C2BA2FE24009E210C /* yolov8l.mlpackage in Sources */,
 				1C3505862BA2F5F2009E210C /* MobileNetV2.mlmodel in Sources */,
 				1CE450B42B9F1991001843C0 /* ContentView.swift in Sources */,
 				1C3505822BA2CECF009E210C /* ModelContentView.swift in Sources */,
+				1CA767472BAAC2960018BDCD /* yolov8x.mlpackage in Sources */,
 				1C3505882BA2F98C009E210C /* YoloContentView.swift in Sources */,
 				1CE450B22B9F1991001843C0 /* SemanticSegmentationApp.swift in Sources */,
 				1C4B160B2BA17E6700261F8A /* ContourDetection.swift in Sources */,
 				1C35058E2BA3000D009E210C /* MediaPicker.swift in Sources */,
+				1CA767512BAB136F0018BDCD /* yolov8x-seg.mlpackage in Sources */,
 				1CE450C02B9F19BD001843C0 /* ImageLift.swift in Sources */,
 				1CF86F292BA9887E00B6F3FF /* HumanRectangleContentView.swift in Sources */,
 			);
